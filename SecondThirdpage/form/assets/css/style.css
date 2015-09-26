@@ -355,13 +355,7 @@ a.thumbnail {
     -webkit-transition: box-shadow 0.2s ease-in-out;
     -moz-transition: box-shadow 0.2s ease-in-out;
     -o-transition: box-shadow 0.2s ease-in-out;
-    transition: box-shadow 0.2s 
-.thumbnail h3 a:hover,
-        
-.thumbnail-style h3 a:hover {
-	color: #72c02c;
-	text-decoration: none;
-}-in-out;
+    transition: box-shadow 0.2s ease-in-out;
 }
 
 .thumbnail h3,
@@ -375,6 +369,11 @@ a.thumbnail {
 	font-size: 18px;
 }
 
+.thumbnail h3 a:hover,
+.thumbnail-style h3 a:hover {
+	color: #72c02c;
+	text-decoration: none;
+}
 
 .thumbnail-style .thumbnail-img {
 	position: relative;

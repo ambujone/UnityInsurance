@@ -5,7 +5,7 @@ var FancyBox = function () {
         //Fancybox
         initFancybox: function () {
             jQuery(".fancybox").fancybox({
-            groupAttr: 'data-rel',
+            groupAttr: 'data-re',
             prevEffect: 'fade',
             nextEffect: 'fade',
             openEffect  : 'elastic',
