@@ -1,21 +1,38 @@
-
 #score-box {
-	float: right;
+	/*float: center-right;
 	width: 5%;
-	font-size: 20px;
+	font-size: 70px;
 	text-align: center;
-	margin-top: 5px;
+	margin-top: 5px;*/
+
+	display: block;
+								position: absolute;
+								top:20px;
+								right:10px;
+								color: white;
+								font-family: 'DINCond-MediumRegular';
+								background: black;
+								text-align: center;
+								z-index: 20;
+								overflow: hidden;
+								line-height: 100%;
+								width:130px;
+								font-size: 50px;
+
 }
-#score-box1 {
+/*#score-box1 {
 	float: center;
 	width: 15%;
-	font-size: 20px;
+	font-size: 70px;
 	text-align: center;
 	margin-top: 5px;
-}
+}*/
 
 #score-number {
-	font-size: 20px;
-	color: #de4a4a;
+	/*font-size: 70px;
+	color: #0000ff;*/
+	font-size: 70px;
+	                color:white;
+	                background:#00ff00;
+	                position:relative;
 }
-
