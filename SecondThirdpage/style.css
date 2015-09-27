@@ -1,0 +1,21 @@
+
+#score-box {
+	float: right;
+	width: 5%;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 5px;
+}
+#score-box1 {
+	float: center;
+	width: 15%;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+#score-number {
+	font-size: 20px;
+	color: #de4a4a;
+}
+
